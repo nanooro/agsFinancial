@@ -19,8 +19,8 @@
       }
     ],
     "paths": {
-      "@/*": ["./src/components/ui/*"],
-      "ui/*": ["./src/components/ui/*"]
+      "@/*": ["./src/*"],
+      "@ui/*": ["components/ui/*"]
     },
     "baseUrl": "."
   },

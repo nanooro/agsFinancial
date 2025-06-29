@@ -1,7 +1,8 @@
 "use client";
 
 import { useState } from "react";
-import Header from "../../components/ui/header";
+import Header from "@/components/ui/header";
+import { Button } from "@/components/ui/button";
 
 export default function GetStarted() {
   const [step, setStep] = useState<"intro" | "choose" | "form">("intro");
@@ -42,18 +43,20 @@ export default function GetStarted() {
               Welcome to <Highlight>AGS Financials</Highlight>
             </h1>
             <p className="text-lg text-center text-gray-600 dark:text-gray-300">
-              We help people across <Highlight>Karnataka</Highlight> choose the right loan — whether it’s for a{" "}
-              <Emphasis>new home</Emphasis>, <Emphasis>personal needs</Emphasis>, or{" "}
-              <Emphasis>education</Emphasis>. Our guidance is <Emphasis>fast</Emphasis>,{" "}
-              <Emphasis>free</Emphasis>, and <Emphasis>personalized</Emphasis>.
+              We help people across <Highlight>Karnataka</Highlight> choose the
+              right loan — whether it’s for a <Emphasis>new home</Emphasis>,{" "}
+              <Emphasis>personal needs</Emphasis>, or{" "}
+              <Emphasis>education</Emphasis>. Our guidance is{" "}
+              <Emphasis>fast</Emphasis>, <Emphasis>free</Emphasis>, and{" "}
+              <Emphasis>personalized</Emphasis>.
             </p>
             <div className="text-center">
-              <button
-                className="mt-6 bg-blue-600 hover:bg-blue-700 text-white py-3 px-6 rounded-md font-semibold"
+              <Button
+                className="mt-6 w-full sm:w-auto bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white py-3 px-6 rounded-md font-semibold hover:brightness-110 transition"
                 onClick={() => setStep("choose")}
               >
                 Get Started
-              </button>
+              </Button>
             </div>
           </>
         )}

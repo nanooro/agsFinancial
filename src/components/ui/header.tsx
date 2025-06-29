@@ -19,7 +19,14 @@ export default function Header() {
             height={40}
             className="object-contain"
           />
-          <span className="text-xl font-bold text-gray-900 dark:text-white">AGS</span>
+          <div className="flex">
+            <span className="text-xl font-bold text-gray-900 dark:text-white">
+              AGS
+            </span>
+            <span className="text-xl font-bold text-red-600 dark:text-white">
+              KEYS
+            </span>{" "}
+          </div>
         </div>
       </Link>
 
@@ -42,13 +49,14 @@ export default function Header() {
 
 function HamburgerIcon({ onClick }: { onClick: () => void }) {
   return (
-    <motion.button
-      onClick={onClick}
-      className="p-2"
-      aria-label="Open menu"
-    >
+    <motion.button onClick={onClick} className="p-2" aria-label="Open menu">
       <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-        <path d="M4 6h16M4 12h16M4 18h16" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        <path
+          d="M4 6h16M4 12h16M4 18h16"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+        />
       </svg>
     </motion.button>
   );
@@ -66,7 +74,12 @@ function CrossIcon({ onClick }: { onClick: () => void }) {
       aria-label="Close menu"
     >
       <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
-        <path d="M6 6l12 12M6 18L18 6" stroke="currentColor" strokeWidth="2" strokeLinecap="round" />
+        <path
+          d="M6 6l12 12M6 18L18 6"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+        />
       </svg>
     </motion.button>
   );
@@ -86,9 +99,9 @@ function NavBar({ onClose }: { onClose: () => void }) {
           Home
         </button>
       </Link>
-      <Link href="/articles" onClick={onClose}>
+      <Link href="/learn-more" onClick={onClose}>
         <button className="w-full text-left text-blue-600 dark:text-blue-400 font-semibold hover:underline">
-          Articles
+          learn-more
         </button>
       </Link>
     </motion.nav>
