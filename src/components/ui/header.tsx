@@ -13,7 +13,7 @@ export default function Header() {
       <Link href="/">
         <div className="flex items-center gap-2">
           <Image
-            src="/image-20250511194348.jpg"
+            src="https://i.postimg.cc/xd6PMLCk/IMG-20250629-174932.jpg"
             alt="AGS Logo"
             width={40}
             height={40}
