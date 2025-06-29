@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sources": [],
+  "sections": [
+    {"offset": {"line": 1, "column": 0}, "map": {"version":3,"sources":["turbopack:///[next]/internal/font/google/bungee_7c40d522.module.css"],"sourcesContent":["@font-face {\n    font-family: 'Bungee Fallback';\n    src: local(\"Arial\");\n    ascent-override: 73.58%;\ndescent-override: 21.64%;\nline-gap-override: 0.00%;\nsize-adjust: 138.63%;\n\n}\n.className {\n    font-family: 'Bungee', 'Bungee Fallback';\n    font-weight: 400;\nfont-style: normal;\n\n}\n.variable {\n    --font-bungee: 'Bungee', 'Bungee Fallback';\n}\n"],"names":[],"mappings":"AAAA;;;;;;;;;AASA;;;;;;AAMA","ignoreList":[0]}}]
+}

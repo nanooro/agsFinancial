@@ -20,13 +20,13 @@ export default function Header() {
             className="object-contain"
           />
           <div className="flex">
-            <span className="text-xl font-bold text-gray-900 dark:text-white">
+            <span className="text-xl font-[--font-bungee] font-bold text-gray-900 dark:text-white">
               AGS
             </span>
-            <span className="text-xl font-bold text-red-600 dark:text-white">
-              KEYS
-            </span>{" "}
-          </div>
+            <span className="text-xl font-[--font-bungee] font-bold text-red-600 dark:text-white">
+               KEYS
+            </span>
+          </div>{" "}
         </div>
       </Link>
 

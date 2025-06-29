@@ -55,7 +55,7 @@ export default function GetStarted() {
                 className="mt-6 w-full sm:w-auto bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-white py-3 px-6 rounded-md font-semibold hover:brightness-110 transition"
                 onClick={() => setStep("choose")}
               >
-                Get Started
+                proceed
               </Button>
             </div>
           </>

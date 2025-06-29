@@ -1,0 +1,21 @@
+/* [next]/internal/font/google/bungee_7c40d522.module.css [app-client] (css) */
+@font-face {
+  font-family: Bungee Fallback;
+  src: local(Arial);
+  ascent-override: 73.58%;
+  descent-override: 21.64%;
+  line-gap-override: 0.0%;
+  size-adjust: 138.63%;
+}
+
+.bungee_7c40d522-module__4uV8Qq__className {
+  font-family: Bungee, Bungee Fallback;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.bungee_7c40d522-module__4uV8Qq__variable {
+  --font-bungee: "Bungee", "Bungee Fallback";
+}
+
+/*# sourceMappingURL=%5Bnext%5D_internal_font_google_bungee_7c40d522_module_css_f9ee138c._.single.css.map*/
